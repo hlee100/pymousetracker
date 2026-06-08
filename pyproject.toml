@@ -3,19 +3,23 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "PyMouPosTracker"
-version = "0.2.0"
-description = "A Python library that tracks the x and y positions of your mouse cursor."
+name = "pymousetracker"
+version = "1.0.0"
+description = "A simple mouse tracking, color picking, and macro generation utility."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [
   { name="hlee100", email="henrylee1606@gmail.com" }
 ]
 dependencies = [
   "pyautogui",
-  "keyboard"
+  "keyboard",
 ]
+
+# --- ADD THIS SECTION BELOW ---
+[project.scripts]
+cursor-toolbox = "pymousetracker:main"
 
 [project.urls]
 Homepage = "https://github.com/hlee100/PyMouPosTracker"
