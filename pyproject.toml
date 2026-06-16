@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,16 +8,19 @@ version = "1.0.0"
 description = "A simple mouse tracking, color picking, and macro generation utility."
 readme = "README.md"
 requires-python = ">=3.9"
-license = {text = "MIT"}
 authors = [
   { name="hlee100", email="henrylee1606@gmail.com" }
 ]
 dependencies = [
-  "pyautogui",
+  "pyautogui",                                                                                                                                              
   "keyboard",
 ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 
-# --- ADD THIS SECTION BELOW ---
 [project.scripts]
 cursor-toolbox = "pymousetracker:main"
 

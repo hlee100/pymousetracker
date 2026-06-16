@@ -34,7 +34,7 @@ class CursorToolbox():
                 f.write("print('Automation sequence complete.')\n")
             
             absolute_path = os.path.abspath(filename)
-            print(f"\n🚀 Success! Python script generated at:\n{absolute_path}")
+            print(f"\nSuccess! Python script generated at:\n{absolute_path}")
             
         except Exception as e:
             print(f"\nError writing the script file: {e}")
@@ -144,7 +144,7 @@ def main():
         else:
             if choice != "": # Ignore empty inputs caused by trailing keyboard events
                 print(f"\n[ERROR] '{choice}' is an invalid choice. Please enter 1, 2, 3, or 4.")
-                time.write(1)
+                time.sleep(1)
 
 if __name__ == "__main__":
     main()
