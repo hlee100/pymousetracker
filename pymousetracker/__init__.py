@@ -1,3 +1,3 @@
-from .pymousetracker import CursorToolbox
+from .pymousetracker import CursorToolbox, main
 
-__all__ = ["CursorToolbox"]
+__all__ = ["CursorToolbox", "main"]
