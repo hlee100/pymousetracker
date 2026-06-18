@@ -2,9 +2,9 @@
 [![pymousetracker.png](https://i.postimg.cc/zBMCsTmM/pymousetracker.png)](https://postimg.cc/62r4R2pL)
 ---
 
-[![Static Badge](https://img.shields.io/badge/pypi-v1.2.1-blue)](https://pypi.org/project/pymousetracker/) ![Static Badge](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Static Badge](https://img.shields.io/badge/pypi-v1.2.3-blue)](https://pypi.org/project/pymousetracker/) ![Static Badge](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-A simple mouse tracking, color picking, and macro generation utility that can either be run via the CLI or in an IDE.
+A simple mouse tracking, color picking, and macro generation utility that can either access by downloading the avaiable executable file or via the CLI or importing it into your IDE.
 
 
 ## 🚀 Quick Start
